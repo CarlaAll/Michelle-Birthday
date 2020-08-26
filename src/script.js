@@ -129,11 +129,6 @@ telefon.addEventListener("click", grundTelefon);
 gf = document.querySelector("#gf");
 gf.addEventListener("click", grundGf);
 
-var myVideo = document.getElementById("myVid");
-function playVideo() {
-  myVideo.play();
-}
-
 //autoplay audio by page loading
 setTimeout(function () {
   document.getElementById("audio").play();
